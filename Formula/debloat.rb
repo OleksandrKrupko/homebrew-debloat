@@ -1,5 +1,5 @@
 class Debloat < Formula
-  desc "Interactive TUI to toggle macOS launchd services (frees RAM for local LLM)"
+  desc "Interactive console util to toggle macOS launchd services (frees RAM)"
   homepage "https://github.com/OleksandrKrupko/mac-os-debloat"
   url "https://github.com/OleksandrKrupko/mac-os-debloat/archive/refs/tags/v0.1.0.tar.gz"
   sha256 "d41e6c6d23f7e05f756070bad123a3753881566e0a032b42c29b6c3de8f1c23b"

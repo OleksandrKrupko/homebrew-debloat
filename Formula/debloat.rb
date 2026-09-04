@@ -1,10 +1,10 @@
 class Debloat < Formula
-  desc "Interactive console util to toggle macOS launchd services (frees RAM)"
+  desc "Console util to toggle macOS launchd services and the Spotlight index (frees RAM)"
   homepage "https://github.com/OleksandrKrupko/mac-os-debloat"
-  url "https://github.com/OleksandrKrupko/mac-os-debloat/archive/refs/tags/v0.7.2.tar.gz"
-  sha256 "e3108226c33776c45a2067ed79c125c1920c25e9f660129ba6317acf270f2325"
+  url "https://github.com/OleksandrKrupko/mac-os-debloat/archive/refs/tags/v0.8.0.tar.gz"
+  sha256 "0d4cf6bd62001e5348f6360907518cc8412f2f6dfae0f029e32a843e98d225e4"
   license "MIT"
-  version "0.7.2"
+  version "0.8.0"
 
   depends_on :macos
 
@@ -13,6 +13,6 @@ class Debloat < Formula
   end
 
   test do
-    assert_match "0.7.2", shell_output("#{bin}/debloat --version")
+    assert_match "0.8.0", shell_output("#{bin}/debloat --version")
   end
 end
